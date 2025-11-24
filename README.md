@@ -1,8 +1,8 @@
 # Auteurs
 
-<Forian THOLLOT>
-<Astrid MARION>
-<Léna ROUZIERES>
+Forian THOLLOT
+Astrid MARION
+Léna ROUZIERES
 
 # Objectifs
 
