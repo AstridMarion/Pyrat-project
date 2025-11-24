@@ -19,7 +19,7 @@ Dans un premier temps, l'objectif a été d’aider le rat à manger tous les mo
 
 # Joueurs
 
-1. Exhaustive:
+**1. Exhaustive:**  
 Trois fonctions permettent de trouver le chemin complet optimisé pour visiter tous les fromages:
 * maze_to_graph:
     - permet de créer un graph reliant chaque tous les sommets (position initiale ou fromage) entre eux. Les arrêtes de ce graphe sont pondérées par la distance minimale les reliant (trouvée avec Dijkstra). Cette fonction permet aussi de garder en mémoire les chemins trouvés entre chaque sommets grâce à Dijkstra.
@@ -31,7 +31,7 @@ Trois fonctions permettent de trouver le chemin complet optimisé pour visiter t
     - permet de donner le chemin exact à suivre par la souris pour visiter les fromages dans l ordre qu a donné le TSP et grâce aux chemins reliant chaque sommets mémorisés avec maze_to_graphe.
     - sa complexité est en O(nb_sommets)
 
-2. Backtracking:
+**2. Backtracking:**  
 Cette fonction est une amélioration de la fonction précédente Exhaustive.
 En effet, la seule fonction modifiée est TSP qui devient Backtracking. Cette fonction possède les 
 caractériqtiques suivantes:
@@ -41,14 +41,14 @@ est plus long qu'une solution précédente.
 - Cette solution est donc plus optimisée dans le meilleure des cas que Exhaustive et renvoie exactement la même solution
 - sa complexité est en O(nb_sommet*(nb_sommets−1)!) dans le pire des cas (comme Exhaustive)
 
-3. SortedNeighbors: 
+**3. SortedNeighbors:**  
 C est encore une amélioration de la fonction Backtracking.
 En effet, la seule fonction modifiée est Backtracking qui devient SortedNeighbors. Cette fonction possède les caractériqtiques suivantes:
 - c est une fonction récursive
 - elle possède la même typologie que Backtracking et renvoie exactement la même solution. Cependant maintenant, les sommets sont visités par ordre croissant du poids de l'arrête le reliant au sommet précédent. Cela permet d'éliminer plus rapidement des chemins trop longs.
 - sa complexité est en O(nb_sommet*(nb_sommets−1)!) dans le pire des cas (comme Exhaustive)
 
-4. Greedy: 
+**4. Greedy:**  
 C'est un joueur utilisant une nouvelle méthode de recherche:
 La seule fonction modifiée par rapport à Exhaustive est toujours le TSP qui devient greedy. 
 Cette fonction possède les caractériqtiques suivantes:
@@ -58,7 +58,7 @@ Cette fonction possède les caractériqtiques suivantes:
 "le chemin le plus court qui passe par tous les morceaux de fromage peut être approximé en allant séquentiellement vers le morceau de fromage le plus proche"
 - sa complexité est en O(nb_sommets**2)
 
-5. GreedyEachTurn: 
+**5. GreedyEachTurn:**  
 (Nous n'avons pas fait GreedyEachCheese étant donné que GreedyEachTurn est déjà une amélioration 
 de celui-ci)
 C'est une amélioration de Greedy qui calcul à chaque tour le chemin à parcourir afin de pouvoir 
@@ -103,4 +103,4 @@ Et voilà les tests réalisés pour chaque fonction (apparaissant dans plusieurs
 * SortedNeighbors:
     - le trie est effectué avant de visiter les sommets
     - il faut avoir visité tous les sommets
-    - les premiers sommets visités sont ceux à une distance minimale
+    - les premgit piers sommets visités sont ceux à une distance minimale
