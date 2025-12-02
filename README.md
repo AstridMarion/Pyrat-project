@@ -16,9 +16,7 @@ Le projet a été réalisé dans le cadre de la formation FISE A1 à IMT Atlanti
       <img alt="image du rat PyRat" src="https://github.com/user-attachments/assets/882cc204-b8b6-497d-ab69-db61cf9c5499" width="187" height="270">
     </td>
     <td style="vertical-align: top; border: none;">
-      Le projet a été réalisé dans le cadre de la formation FISE A1 à IMT Atlantique, et est centré sur un logiciel appelé PyRat. En quelques mots, ce logiciel est un jeu vidéo, dans lequel un petit rat est contrôlé dans un labyrinthe grâce à des codes Python. Il y a des morceaux de fromage à différents endroits du labyrinthe, que le rat veut manger.
-      
-      Dans un premier temps, l'objectif a été d’aider le rat à manger tous les morceaux de fromage. Ensuite, nous avons introduit un ou plusieurs autres joueurs, qui doivent également ramasser des fromages. L’objectif est alors de ramasser plus de morceaux de fromage que ceux-ci.
+      Le projet a été réalisé dans le cadre de la formation FISE A1 à IMT Atlantique, et est centré sur un logiciel appelé PyRat. En quelques mots, ce logiciel est un jeu vidéo, dans lequel un petit rat est contrôlé dans un labyrinthe grâce à des codes Python. Il y a des morceaux de fromage à différents endroits du labyrinthe, que le rat veut manger. Dans un premier temps, l'objectif a été d’aider le rat à manger tous les morceaux de fromage. Ensuite, nous avons introduit un ou plusieurs autres joueurs, qui doivent également ramasser des fromages. L’objectif est alors de ramasser plus de morceaux de fromage que ceux-ci.
     </td>
   </tr>
 </table>
