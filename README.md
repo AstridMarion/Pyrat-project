@@ -5,7 +5,7 @@ Astrid MARION
 Léna ROUZIERES
 
 # Objectifs
-<img width="187" height="270" alt="image" src="https://github.com/user-attachments/assets/882cc204-b8b6-497d-ab69-db61cf9c5499">
+<img width="187" height="270" alt="image" src="https://github.com/user-attachments/assets/882cc204-b8b6-497d-ab69-db61cf9c5499" style="float: right; margin-left: 15px; width: 30%;">
 
 Le projet a été réalisé dans le cadre de la formation FISE A1 à IMT Atlantique, et est centré sur un logiciel appelé PyRat. En quelques mots, ce logiciel est un jeu vidéo, dans lequel un petit rat est contrôlé dans un labyrinthe grâce à des codes Python. Il y a des morceaux de fromage à différents endroits du labyrinthe, que le rat veut manger.
 
